@@ -3,6 +3,9 @@
 ## Overview
 Automated Infrastructure as Code (IaC) written in **Terraform** to provision a high-availability, multi-tier web application architecture on AWS.
 
+## Live Deployment Verification
+![Deployed Web Application](deployment-screenshot.png)
+
 ## Architecture & Security Highlights
 - **VPC Networking:** Custom `/16` CIDR block distributed across two distinct Availability Zones for High Availability.
 - **Security Group Chaining:** Enforced zero-trust perimeter security by restricting web instance HTTP access exclusively to traffic coming from the Application Load Balancer (ALB).
